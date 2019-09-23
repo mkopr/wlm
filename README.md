@@ -18,7 +18,7 @@ $ wlm
 usage: wlm [-h] -u URL -l LIST [LIST ...] [-m MAIL] [-p PHONE_NUMBER]
         the following arguments are required: -u/--url, -l/--list
 ```
-
+Require python>=3.7  
 Service logs in file `logs/wlm_RRRR_MM_DD.log`  
 Result data in file `logs/log.txt`
 
