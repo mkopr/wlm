@@ -67,8 +67,7 @@ comparison_date:		2019-09-23 21:33:04.060560
 
 # chosen third-party libraries
 python-dotenv - to handle environment variables from .env file;  
-twlilio - sms provider;  
-requests - to load websites HTML.
+twlilio - sms provider
 
 # tests
 ```
