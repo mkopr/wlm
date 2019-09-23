@@ -73,3 +73,10 @@ twlilio - sms provider
 ```
 $ python -m unittest discover
 ```
+
+# logging
+change logging direction, filename in `website_measure/__init__.py`
+
+# constants
+change message template, regex strings, result file name in
+`website_measure/constants.py`
