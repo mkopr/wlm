@@ -14,7 +14,7 @@ class Validate:
         self.error_message - error message from REGEX_VALIDATION dictionary
 
         Update REGEX_VALIDATION dict in constants.py to use different regex
-        strings, error messages of validate different types of data.
+        strings, error messages or validate different types of data.
 
         :param data_type: str
         """
