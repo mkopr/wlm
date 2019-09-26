@@ -64,9 +64,9 @@ class TestWebsiteMeasure(unittest.TestCase):
                 123123, self.other_website_1, self.phone_number, self.mail
             )
         except TypeError:
-            self.assertTrue(True)
+            assert True
         else:
-            self.assertTrue(False)
+            assert False
 
     def test_get_arguments_invalid_other_url(self):
         try:
@@ -74,9 +74,9 @@ class TestWebsiteMeasure(unittest.TestCase):
                 self.main_website, 123123, self.phone_number, self.mail
             )
         except TypeError:
-            self.assertTrue(True)
+            assert True
         else:
-            self.assertTrue(False)
+            assert False
 
     def test_get_arguments_without_phone_number_argument(self):
         parser = self.measure.get_arguments(
@@ -125,9 +125,9 @@ class TestWebsiteMeasure(unittest.TestCase):
         try:
             self.measure.measure_load_time('self.main_website')
         except ValueError:
-            self.assertTrue(True)
+            assert True
         else:
-            self.assertTrue(False)
+            assert False
 
     def test_save_to_object(self):
         measure = self.measure.save_to_object(
